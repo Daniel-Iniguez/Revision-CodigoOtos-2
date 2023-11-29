@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" media="screen" href="./styles.css">
   <title>Formulario</title>
 </head>
+
 <body>
   <h1>Bienvenidos a mi fiesta</h1>
   <h2>Por favor, confirmar asistencia:</h2>
@@ -26,15 +27,22 @@
       <option value="vnzl">Venezolana</option>
     </select>
     <br />
-    <input type="submit">
+    <button type="submit">Enviar</button> <!-- la etiqueta era un input y no un button -->
   </form>
 
-  <div>
-    <h2>Lista de invitados</h2>
+
+  <h2>Lista de invitados</h2>
+  <div id="lista-de-invitados">
 
   </div>
 
-  <script src="../formulario.js"></script>
+
+
+  <div class="boton">
+
+  </div>
+
+  <script src="./formulario.js"></script> <!-- La ruta estaba mal escrita -->
 </body>
 
 </html>

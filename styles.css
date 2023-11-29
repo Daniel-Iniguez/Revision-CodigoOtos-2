@@ -1,6 +1,5 @@
 body {
-  background: #f0c27b; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f0c27b, #4b1248); /* Chrome 10-25, Safari 5.1-6 */
+  /* habia 2 lineas de background las cuales no tenian un uso ya que toma la ultima */
   background: linear-gradient(to right, #f0c27b, #4b1248); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -14,11 +13,14 @@ body {
 .formulario input, select {
   border: none;
   height: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .error {
   background-color: red;
+}
+.correcto {
+  background-color: rgb(51, 255, 0);
 }
 
 .elemento-lista {
